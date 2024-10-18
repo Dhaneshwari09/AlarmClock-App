@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityy"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/layoutbackground">
+
+    <TextView
+        android:id="@+id/current_time"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/current_date"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/set_alarm_button"
+        android:text="Set Alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alarmbackgorund"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/view_alarms_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Alarms"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+        android:background="@drawable/alarmbackgorund"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
